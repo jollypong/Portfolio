@@ -1,0 +1,112 @@
+:root {
+    --dark: #222;
+    --light: #55d6aa;
+}
+
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    scroll-behavior:smooth; 
+}
+
+body {
+    line-height: 1.5; 
+    height: 100%;
+    background: var(--dark);
+    font-size: 20px; 
+}
+
+header {
+    width: 90%;
+    max-width: 90vw;
+    margin: auto; 
+    text-align: center;
+}
+
+h1 {
+    display: block; 
+    font-size: 200%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    color: var(--light);
+}
+
+nav { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1%;
+    background-color: var(--dark); 
+    font-family: basic-sans, sans-serif;
+}
+
+nav ul { 
+    margin: 0px; 
+    padding: 20px; 
+}
+
+nav li {
+    display: inline-flex;  
+    list-style: none; 
+    margin-right: 20px; 
+    align-items: center; 
+}
+ 
+nav a {
+    color: var(--light);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex: 1 1 33;
+    max-width: 96%;
+    margin: 2% auto;
+}
+
+.aboutme{
+    display: flex; 
+}
+
+.projects{ 
+    display: flex; 
+    flex-wrap: wrap;
+
+}
+
+.projects>*{ 
+    flex: 1 1 33%
+}
+
+@media screen and (max-width: 992px){ 
+    header, 
+    main {
+        flex: 0 0 75%;
+        max-width: 75%;
+    } 
+    nav{ 
+        flex-direction: row; 
+        display: inline-block;
+        padding: 20 px; 
+    }
+} 
+
+@media screen and (max-width: 530px){ 
+    main, 
+     {
+        flex: 0 0 50%;
+        max-width: 50%;
+        flex-direction: column; 
+    }
+    nav li{ 
+        flex-direction: column; 
+        display: inline-block;
+        padding: 0; 
+        width: 100%;
+    }
+}
