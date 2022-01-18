@@ -1,6 +1,9 @@
 :root {
     --dark: #222;
-    --light: #55d6aa;
+    --light: #ccc;
+    --hover: #fff;
+    --h2:#bbb;
+    --p:#ddd; 
 }
 
 * { 
@@ -15,19 +18,20 @@ body {
     height: 100%;
     background: var(--dark);
     font-size: 20px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    margin: 0% 5%;
 }
 
 header {
     width: 90%;
     max-width: 90vw;
-    margin: auto; 
+    margin: auto;
     text-align: center;
 }
 
-h1 {
+.logo {
     display: block; 
     font-size: 200%;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     color: var(--light);
 }
 
@@ -46,67 +50,208 @@ nav ul {
 }
 
 nav li {
-    display: inline-flex;  
+    display: inline-block;
     list-style: none; 
     margin-right: 20px; 
+    align-items: center;
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--light);
+}
+
+nav a:hover {
+    color: var(--hover);
+}
+
+.hero {
+    background-image: url("./images/mountain.jpg");
+    background-size: cover;
+    padding: 20px;
+    background-position: center;
+    background-position: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    z-index: -1;
+    height: 60%;
+} 
+
+.about {
+    display: flex;
+    flex: 1 1 33;
+    margin: 2% auto;
+    max-height: 25%;
+}
+
+.about h2 {
+    display: inline-block;
+    color: var(--h2);
+    text-decoration: underline;
+}
+
+.info {
+    display: flex; 
+    max-height: 25%;
+    color: var(--h2);
+    margin-left: 50px; 
+    text-decoration: none;
+}
+
+/* .profile {
+    max-width: 220px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 15px;
+    margin-right: 7%;
+    align-items: flex-start;
+    z-index: -1;
+} */
+
+.container { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--light);
+}
+
+.projects { 
+    flex: 1 0 100%;
+    padding: 1.5rem;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+}
+
+.container h2 {
+    display: flex; 
+    flex: 1 0 100%;
+    max-height: 25%;
+    color: var(dark);
+    text-decoration: underline;
+}
+
+.projects img{ 
+    outline: 5px solid var(--dark);
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+/* .projects:first-child {
+
+} */
+
+.projects > h3 { 
+    border-radius: 0 0; 
+    padding: 20px; 
+    color: var(--dark);
+}
+
+.projects img:hover {
+    box-shadow: inset 0px 0px 8px var(--dark)
+  }
+
+.contactme { 
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center; 
+    background-color: var(--dark); 
+    font-family: basic-sans, sans-serif;
+}
+
+.contactme h2 {
+    display: block; 
+    color: var(--h2); 
+    text-decoration: underline;
+}
+
+.contactme ul { 
+    margin: 0;
+    padding: 20px; 
+}
+
+.contactme li {
+    display: inline-flex;  
+    list-style: none; 
+    margin-left: 80px; 
     align-items: center; 
 }
- 
-nav a {
+
+.contactme a {
     color: var(--light);
     font-weight: bold;
     text-decoration: none;
 }
 
-nav a:hover {
-    color: #fff;
+.contactme a:hover {
+    color: var(--hover);
 }
 
-main {
-    display: flex;
-    flex: 1 1 33;
-    max-width: 96%;
-    margin: 2% auto;
+.github a::after {
+    display: inline; 
+    font-size: 20px;
+    content: "🐱";
+    margin-left: 5px;
 }
 
-.aboutme{
-    display: flex; 
+.linkedin a::after {
+    display: inline; 
+    font-size: 20px;
+    background-color: blue;
+    content: "ℹ️";
+    margin-left: 10px;
+    padding: 0px 5px; 
 }
 
-.projects{ 
-    display: flex; 
-    flex-wrap: wrap;
-
+.email a::after {
+    display: inline; 
+    font-size: 20px;
+    content: "📧";
+    margin-left: 5px
 }
 
-.projects>*{ 
-    flex: 1 1 33%
+.resume a::after {
+    display: inline; 
+    font-size: 20px;
+    content: "📄";
+    margin-left: 5px
 }
 
-@media screen and (max-width: 992px){ 
-    header, 
-    main {
-        flex: 0 0 75%;
-        max-width: 75%;
-    } 
-    nav{ 
-        flex-direction: row; 
-        display: inline-block;
-        padding: 20 px; 
-    }
-} 
-
-@media screen and (max-width: 530px){ 
-    main, 
-     {
-        flex: 0 0 50%;
-        max-width: 50%;
-        flex-direction: column; 
-    }
-    nav li{ 
-        flex-direction: column; 
+/* @media screen and (min-width: 768px){ 
+    li { 
+        flex-direction: column;
         display: inline-block;
         padding: 0; 
         width: 100%;
+        flex-direction: column; 
     }
+    .about, 
+    .container {
+        flex: 0 0 50%;
+        max-width: 50%;
+        align-items: center; 
+        flex-grow: 1;
+    }
+
 }
+
+@media screen and (max-width: 992px){ 
+    li {
+        flex-direction: row;
+        display: flex;
+        padding: 20 px; 
+    } 
+    .about, 
+    .container {
+        flex: 0 0 33.33%;
+        max-width: 75%;
+        flex-direction: row; 
+    } 
+} */

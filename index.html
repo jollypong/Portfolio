@@ -10,35 +10,60 @@
     <body>
         <header>
             <nav>
-                <h1>Joe Lee | Full Stack Developer</h1>
+                <h1 class="logo">Joe Lee | Full Stack Developer</h1>
                 <ul>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="#info">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contactme">Contact Me</a></li>
                 </ul>
             </nav> 
         </header> 
-        <hero>
-            <figure class="hero">
-                
-            </figure>
-        </hero>
         <main>
-            <section>
-                <div class="aboutme"><h2>About Me:</h2>
+            <hero>
+                <figure class="hero"></figure>
+            </hero>
+
+            <section class ="about" id="info">
+                <h2>About Me:</h2>
+                <div class="info">
                     <p>
-                        My name is Joe, I'm a retired military medic looking for a new exciting career in software development.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at harum vel enim obcaecati, omnis qui voluptatem quasi pariatur magnam, quia laudantium ipsam nostrum voluptatum est illum maiores. Similique, maxime?
                     </p>
                 </div>
+                <figure class ="profile">
+                        <!-- <img src="./Assets/images/profile.png", alt= "Joe Happy as a Kite"> -->
+                </figure>
+            </section>
+
+            <section class="container", id="projects">
+                <h2>Projects:</h2>
                 <div class="projects">
-                    <h2 class="title">Projects</h2>
-                    <div class="moretocome"></div>
-                    <div class="moretocome"></div>
-                    <div class="moretocome"></div>
-                    <div class="moretocome"></div>
-                    <div class="moretocome"></div>
+                    <figure class="project1"><h3>Horiseon</h3>
+                        <img src="Assets/images/comingsoon.jpg", alt="3 lanterns illuminating the words coming soon">
+                    </figure>
+                    <figure class="project2"><h3>Project2</h3>
+                        <img src="Assets/images/comingsoon.jpg", alt="3 lanterns illuminating the words coming soon">
+                    </figure>
+                    <figure class="project3"><h3>Project3</h3>
+                        <img src="Assets/images/comingsoon.jpg", alt="3 lanterns illuminating the words coming soon">
+                    </figure>
+                    <figure class="project4"><h3>Project4</h3>
+                        <img src="Assets/images/comingsoon.jpg", alt="3 lanterns illuminating the words coming soon">
+                    </figure>
+                    <figure class="project5"><h3>Project5</h3>
+                        <img src="Assets/images/comingsoon.jpg", alt="3 lanterns illuminating the words coming soon">
+                    </figure>
                 </div>
             </section>
-        </main> 
+        </main>
+            <footer class="contactme", id="contactme">
+                <h2>Contact Me:</h2>
+                <ul>
+                    <li class="github"><a href="https://github.com/jollypong" target="_blank">Github</a></li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/in/joe-lee-5a8ab4228/" target="_blank">LinkedIn</a></li>
+                    <li class="email"><a href="mailto: rogs4399@gmail.com">Email</a></li>
+                    <li class="resume"><a href="./Assets/Lee-Resume.pdf">Resume</a></li>
+                </ul>
+            </footer>
     </body>
 </html>
