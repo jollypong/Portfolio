@@ -1,4 +1,4 @@
-# <Responsive-Portfolio>
+# Responsive-Portfolio
 
 ## Description
 This is my portfolio containing my projects and future projects to come for future employment opportunities. This Portfolio contains the following sections: 
@@ -41,9 +41,19 @@ Repository contains:
         -screenshot4
         -screenshot5
         -screenshot6
+     
 ## Screenshots
-```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![screenshot1](./assets/images/screenshot1.png)
+<br/>
+![screenshot2](./assets/images/screenshot2.png)
+<br/>
+![screenshot3](./assets/images/screenshot3.png)
+<br/>
+![screenshot4](./assets/images/screenshot4.png)
+<br/>
+![screenshot5](./assets/images/screenshot5.png)
+<br/>
+![screenshot6](./assets/images/screenshot6.png)
+
 ## Contribution
 Joe Lee @ https://github.com/jollypong
