@@ -42,15 +42,15 @@ Repository contains:
         - screenshot5
      
 ## Screenshots
-![screenshot1](../assets/images/screenshot1.png)
+![screenshot1](/Assets/images/screenshot1.png)
 <br/>
 ![screenshot2](/Assets/images/screenshot2.png)
 <br/>
 ![screenshot3](./Assets/images/screenshot3.png)
 <br/>
-![screenshot4](../Assets/images/screenshot4.png)
+![screenshot4](/Assets/images/screenshot4.png)
 <br/>
-![[screenshot5](assets/images/screenshot5.png)]
+![screenshot5](Assets/images/screenshot5.png)
 
 ## Contribution
 Joe Lee @ https://github.com/jollypong
