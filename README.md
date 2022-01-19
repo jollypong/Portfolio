@@ -44,13 +44,13 @@ Repository contains:
 ## Screenshots
 ![screenshot1](../assets/images/screenshot1.png)
 <br/>
-![screenshot2](/assets/images/screenshot2.png)
+![screenshot2](/Assets/images/screenshot2.png)
 <br/>
-![screenshot3](./assets/images/screenshot3.png)
+![screenshot3](./Assets/images/screenshot3.png)
 <br/>
-![screenshot4](assets/images/screenshot4.png)
+![screenshot4](../Assets/images/screenshot4.png)
 <br/>
-![screenshot5](../Assets/images/screenshot5.png)
+![[screenshot5](assets/images/screenshot5.png)]
 
 ## Contribution
 Joe Lee @ https://github.com/jollypong
