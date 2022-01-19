@@ -40,7 +40,6 @@ Repository contains:
         -screenshot3
         -screenshot4
         -screenshot5
-        -screenshot6
      
 ## Screenshots
 ![screenshot1](./assets/images/screenshot1.png)
@@ -52,8 +51,6 @@ Repository contains:
 ![screenshot4](./assets/images/screenshot4.png)
 <br/>
 ![screenshot5](./assets/images/screenshot5.png)
-<br/>
-![screenshot6](./assets/images/screenshot6.png)
 
 ## Contribution
 Joe Lee @ https://github.com/jollypong

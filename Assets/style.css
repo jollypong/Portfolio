@@ -182,25 +182,22 @@ nav a:hover {
 }
 
 .contactme ul { 
-    display: flex; 
-    justify-content: center; 
+    text-align: center;
     align-items: center; 
     margin: 0; 
     padding: 20px; 
 }
 
 .contactme li {
-    margin:0 50px 0 50px;
+    margin: 0 50px; 
     list-style: none; 
     align-items: center; 
-
 }
 
 .contactme a {
     color: var(--light);
     font-weight: bold;
     text-decoration: none;
-    text-align: center;
 }
 
 .contactme a:hover {
@@ -209,14 +206,14 @@ nav a:hover {
 
 /* icons at contactme  */
 .github a::after {
-    display: inline; 
+    display: inline;
     font-size: 20px;
     content: "🐱";
     margin-left: 5px;
 }
 
 .linkedin a::after {
-    display: inline; 
+    display: inline;
     font-size: 20px;
     background-color: blue;
     content: "ℹ️";
@@ -225,14 +222,14 @@ nav a:hover {
 }
 
 .email a::after {
-    display: inline; 
+    display: inline;
     font-size: 20px;
     content: "📧";
     margin-left: 5px
 }
 
 .resume a::after {
-    display: inline; 
+    display: inline;
     font-size: 20px;
     content: "📄";
     margin-left: 5px
@@ -246,13 +243,11 @@ nav a:hover {
 
 /* Responsive media */
 @media screen and (max-width: 768px) {
-    .nav { 
-        flex-direction: column; 
-    }
+    .nav,
+    .contactme,
     .profile, 
-    .info { 
-        flex-direction: column;
-        flex-basis: 100%; 
+    .info,{ 
+        flex-direction: column; 
     }
     .container, 
     h2 { 
