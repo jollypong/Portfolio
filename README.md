@@ -50,7 +50,7 @@ Repository contains:
 <br/>
 ![screenshot4](assets/images/screenshot4.png)
 <br/>
-![screenshot5](../assets/images/screenshot5.png)
+![screenshot5](../Assets/images/screenshot5.png)
 
 ## Contribution
 Joe Lee @ https://github.com/jollypong
