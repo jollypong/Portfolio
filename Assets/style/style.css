@@ -43,7 +43,7 @@ nav {
     justify-content: space-between; 
     align-items: center; 
     padding: 0;
-    margin: 0; 
+    margin-top: 10px; 
     background-color: var(--dark); 
     font-family: basic-sans, sans-serif;
 }
@@ -68,7 +68,7 @@ nav a:hover {
 
 /* Heroimage */
 .hero-image {
-    background-image: url(./images/mountain.jpg);
+    background-image: url("/assets/images/mountain.jpg");
     background-size: cover; 
     background-position: center;
     margin-bottom:0;
@@ -102,7 +102,7 @@ nav a:hover {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
     font-size: 16px; 
     padding: 16px; 
-    border-radius: 3%;
+    border-radius: 25px;
     flex-basis: 42%;
     float: left; 
     margin: 10px; 
@@ -141,7 +141,7 @@ nav a:hover {
 }
 
 .project { 
-    background-image: url(./images/comingsoon.jpg);
+    background-image: url(./assets/images/comingsoon.jpg);
     background-size: contain; 
     background-position: center; 
     min-height: 250px; 
@@ -150,7 +150,7 @@ nav a:hover {
 }
 
 #horiseon { 
-    background-image: url(./images/digital-marketing-meeting.jpg); 
+    background-image: url(./assets/images/digital-marketing-meeting.jpg); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -205,7 +205,7 @@ nav a:hover {
 }
 
 /* icons at contactme  */
-.github a::after {
+/* .github a::after {
     display: inline;
     font-size: 20px;
     content: "🐱";
@@ -233,7 +233,7 @@ nav a:hover {
     font-size: 20px;
     content: "📄";
     margin-left: 5px
-}
+} */
 
 .footer { 
     text-align: center!important; 
