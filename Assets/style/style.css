@@ -23,6 +23,7 @@ body {
     margin: 0% 5%;
     width: 90%
 }
+
 /* Header and Nav */
 header {
     max-width: 90vw;
@@ -30,7 +31,7 @@ header {
     text-align: center;
 }
 
-.logo {
+#logo {
     display: inline-block; 
     font-size: 200%;
     color: var(--light);
@@ -67,8 +68,8 @@ nav a:hover {
 }
 
 /* Heroimage */
-.hero-image {
-    background-image: url(/assets/images/mountain.jpg);
+#heroImage {
+    background-image: url("https://imgur.com/gallery/aDEaUVe");
     background-size: cover; 
     background-position: center;
     margin-bottom:0;
@@ -76,17 +77,17 @@ nav a:hover {
 }
 
 /* about-me */
-.aboutme {
+#aboutMe {
     margin: 2% auto;
 }
 
-.aboutme h2 {
+#aboutme h2 {
     color: var(--h2);
     text-decoration: underline;
     padding-right: 30px; 
 }
 
-.info { 
+#info { 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -95,7 +96,7 @@ nav a:hover {
     margin: 0 7.5%;
 }
 
-.info p {
+#info p {
     display: flex; 
     color: var(--dark);
     background-color: var(--light);
@@ -108,7 +109,7 @@ nav a:hover {
     margin: 10px; 
 }
 
-.info img { 
+#info img { 
     float: right; 
     width: 200px; 
     height: 200px; 
@@ -118,18 +119,18 @@ nav a:hover {
 
 /* projects */
 
-.projects { 
+#projects { 
     transition: flex-basis 500ms linear;
     background-color: var(--dark);
 }
 
-.projects h2 {
+#projects h2 {
     max-height: 25%;
     color: var(--light);
     text-decoration: underline;
 }
 
-.container { 
+.projectContainer { 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,7 +142,7 @@ nav a:hover {
 }
 
 .project { 
-    background-image: url(/assets/images/comingsoon.jpg);
+    background-image: url(../assets/images/comingsoon.jpg);
     background-size: contain; 
     background-position: center; 
     min-height: 250px; 
@@ -168,74 +169,43 @@ nav a:hover {
 
 .project:hover{
     box-shadow: inset 0px 0px 20px var(--light);
-  }
+}
 
-  /* contactme footer */
-.contactme { 
+/* contactme footer */
+#contactMe { 
     background-color: var(--dark); 
     font-family: basic-sans, sans-serif;
 }
 
-.contactme h2 {
+#contactMe h2 {
     color: var(--h2); 
     text-decoration: underline;
 }
 
-.contactme ul { 
+#contactMe ul { 
     text-align: center;
     align-items: center; 
     margin: 0; 
     padding: 20px; 
 }
 
-.contactme li {
+#contactMe li {
     margin: 0 50px; 
     list-style: none; 
     align-items: center; 
 }
 
-.contactme a {
+#contactMe a {
     color: var(--light);
     font-weight: bold;
     text-decoration: none;
 }
 
-.contactme a:hover {
+#contactMe a:hover {
     color: var(--hover);
 }
 
-/* icons at contactme  */
-/* .github a::after {
-    display: inline;
-    font-size: 20px;
-    content: "🐱";
-    margin-left: 5px;
-}
-
-.linkedin a::after {
-    display: inline;
-    font-size: 20px;
-    background-color: blue;
-    content: "ℹ️";
-    margin-left: 10px;
-    padding: 0px 5px; 
-}
-
-.email a::after {
-    display: inline;
-    font-size: 20px;
-    content: "📧";
-    margin-left: 5px
-}
-
-.resume a::after {
-    display: inline;
-    font-size: 20px;
-    content: "📄";
-    margin-left: 5px
-} */
-
-.footer { 
+#footer { 
     text-align: center!important; 
     color: var(--light);
     font-size: 12px;
@@ -244,7 +214,7 @@ nav a:hover {
 /* Responsive media */
 @media screen and (max-width: 768px) {
     .nav,
-    .contactme,
+    .contactMe,
     .profile, 
     .info { 
         flex-direction: column; 

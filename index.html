@@ -14,20 +14,20 @@
 <body>
     <header>
         <nav>
-            <h1 class="logo">Joe Lee | Full Stack Developer</h1>
+            <h1 id="logo">Joe Lee | Full Stack Developer</h1>
             <ul>
-                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contactme">Contact Me</a></li>
+                <li><a href="#contactMe">Contact Me</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="hero-image"></section>
-        <section class="aboutme" id="aboutme">
+        <div style="background-image: url('img_girl.jpg');"/>
+        <section id="aboutMe">
             <h2>About Me:</h2>
-            <div class="info">
-                <img src="./Assets/images/profile.png" , alt="Joe (author)Happy as a Kite">
+            <div id="info">
+                <img src="./assets/images/profile.png" , alt="Joe (author)">
                 <p>
                     "Hello, My name is Joe, I'm an aspiring full stack developer currently in training. Having spent the
                     last 7 years in healthcare as a paramedic and a military medical technician, I jump quick to
@@ -39,10 +39,10 @@
                 </p>
             </div>
         </section>
-        <section class="projects", id="projects">
+        <section id="projects">
             <h2>Projects:</h2>
-            <div class="container">
-                <a class="project" , id="horiseon" href="https://jollypong.github.io/Horiseon-Social-Solution-Services/"
+            <div class="projectContainer">
+                <a class="project" id="horiseon" href="https://jollypong.github.io/Horiseon-Social-Solution-Services/"
                     target="_blank">
                     <div class="description">
                         <h3>Horiseon Refactor</h3>
@@ -70,18 +70,17 @@
                 </a>
             </div>
         </section>
-        <section class="contactme" , id="contactme">
+        <section id="contactMe">
             <h2>Contact Me:</h2>
             <ul>
-                <li class="github"><a href="https://github.com/jollypong" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
-                <li class="linkedin"><a href="https://www.linkedin.com/in/joe-lee-5a8ab4228/"
-                        target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
-                <li class="email"><a href="mailto: rogs4399@gmail.com"><i class="far fa-envelope fa-2x"></i></a></li>
-                <li class="resume"><a href="./Assets/Lee-Resume.pdf"><i class="far fa-file-alt fa-2x"></i></a></li>
-            </ul>
+                <li id="github"><a href="https://github.com/jollypong" target="_blank"><i
+                            class="fab fa-github fa-2x"></i></a></li>
+                <li id="linkedin"><a href="https://www.linkedin.com/in/joe-lee-5a8ab4228/" target="_blank"><i
+                            class="fab fa-linkedin fa-2x"></i></a></li>
+                <li id="email"><a href="mailto: rogs4399@gmail.com"><i class="far fa-envelope fa-2x"></i></a></li>           </ul>
         </section>
     </main>
-    <footer class="footer">
+    <footer id="footer">
         <p>Copyright 2022 Joe GC Lee </p>
     </footer>
 </body>
