@@ -68,7 +68,7 @@ nav a:hover {
 
 /* Heroimage */
 .hero-image {
-    background-image: url("/assets/images/mountain.jpg");
+    background-image: url(/assets/images/mountain.jpg);
     background-size: cover; 
     background-position: center;
     margin-bottom:0;
@@ -141,7 +141,7 @@ nav a:hover {
 }
 
 .project { 
-    background-image: url(./assets/images/comingsoon.jpg);
+    background-image: url(/assets/images/comingsoon.jpg);
     background-size: contain; 
     background-position: center; 
     min-height: 250px; 
@@ -150,7 +150,7 @@ nav a:hover {
 }
 
 #horiseon { 
-    background-image: url(./assets/images/digital-marketing-meeting.jpg); 
+    background-image: url(/assets/images/digital-marketing-meeting.jpg); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -246,7 +246,7 @@ nav a:hover {
     .nav,
     .contactme,
     .profile, 
-    .info,{ 
+    .info { 
         flex-direction: column; 
     }
     .container, 
