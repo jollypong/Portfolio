@@ -35,22 +35,27 @@ Repository contains:
         - digital-marketing-meetings.jpg
         - mountain.jpg 
         - profile.jpg
-        - screenshot1
-        - screenshot2
-        - screenshot3
-        - screenshot4
-        - screenshot5
+        - codingQuiz.png
+        - dayScheduler.png
+        - passwordGenerator.png
+        - salbotChat.png
+        - weatherDashboard.png
+        - portfolioScreenshotFullsize1.png
+        - portfolioScreenshotFullsize1.png
+        - portfolioScreenshotMobile1.png
+        - portfolioScreenshotMobile2.png
+        - portfolioScreenshotMobile3.png
      
 ## Screenshots
-![screenshot1](/Assets/images/screenshot1.png)
+![screenshot1](./assets/images/portfolioScreenshotFullsize1.png)
 <br/>
-![screenshot2](/Assets/images/screenshot2.png)
+![screenshot2](./assets/images/portfolioScreenshotFullsize2.png)
 <br/>
-![screenshot3](./Assets/images/screenshot3.png)
+![screenshot3](./assets/images/portfolioScreenshotMobile1.png)
 <br/>
-![screenshot4](/Assets/images/screenshot4.png)
+![screenshot4](./assets/images/portfolioScreenshotMobile2.png)
 <br/>
-![screenshot5](Assets/images/screenshot5.png)
+![screenshot5](./assets/images/portfolioScreenshotMobile3.png)
 
 ## Contribution
 Joe Lee @ https://github.com/jollypong
