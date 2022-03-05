@@ -151,6 +151,7 @@ nav a:hover {
     outline: 10px solid var(--light);
     flex-basis: 40%;
 }
+
 #salBot { 
     background-image: url(../images/salbotChat.png); 
     background-size: cover;
@@ -158,29 +159,29 @@ nav a:hover {
     background-repeat: no-repeat;
 }
 
-#weatherDashboard{ 
+#whoWorksWhere {
+    background-image: url(../images/whoWorksWhere.png); 
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#leeCommerce{ 
+    background-image: url(../images/LeeCommerce.png); 
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#handyNote { 
+    background-image: url(../images/handyNote.png); 
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#weatherDashboard { 
     background-image: url(../images/weatherDashboard.png); 
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-#codingQuiz { 
-    background-image: url(../images/codingQuiz.png); 
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-#dayScheduler { 
-    background-image: url(../images/dayScheduler.png); 
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-#passwordGenerator { 
-    background-image: url(../images/passwordGenerator.png); 
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
